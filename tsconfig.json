@@ -17,10 +17,10 @@
     "jsx": "react-jsx",
     "baseUrl": ".",
     "paths": {
-      "assets": ["src/common/assets"],
-      "store": ["src/common/store"],
-      "components": ["src/ui/components"]
-    }
+      "@assets/*": ["src/common/assets/*"],
+      "@store/*": ["src/common/store/*"],
+      "@components/*": ["src/ui/components/*"]
+    }    
   },
   "include": ["src"],
   "references": [{ "path": "./tsconfig.node.json" }]
